@@ -6,6 +6,11 @@ import './scss/main.scss';
 //import { sync } from 'vuex-router-sync';
 //sync(store, router);
 
+import DefaultPage from '@core/Pages/DefaultPage.vue';
+
+// Views
+Vue.component('DefaultPage', DefaultPage);
+
 /* eslint-disable-next-line no-unused-vars */
 let App = new Vue({
     el: '#App',

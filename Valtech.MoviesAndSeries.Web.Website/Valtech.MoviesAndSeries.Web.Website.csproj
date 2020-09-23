@@ -246,6 +246,7 @@
     <Content Include="Client\scss\_variables.scss" />
     <Content Include="Client\scss\main.scss" />
     <Content Include="Client\.eslintignore" />
+    <Content Include="Client\Areas\Core\Pages\DefaultPage.vue" />
     <None Include="EPiServerLog.config" />
     <Content Include="modules\_protected\Shell\web.config" />
     <Content Include="modules\_protected\Shell\Shell.zip" />

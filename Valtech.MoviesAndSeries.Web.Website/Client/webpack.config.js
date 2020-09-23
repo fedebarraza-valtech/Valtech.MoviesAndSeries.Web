@@ -70,7 +70,14 @@ const config = {
         children: false,
         colors: true
     },
-    devtool: 'source-map'
+    devtool: 'source-map',
+    resolve: {
+        extensions: ['.js', '.vue'],
+        alias: {
+            vue: 'vue/dist/vue.js',
+            '@core': path.join(__dirname, './Areas/Core/')
+        }
+    },
 };
 
 module.exports = config;
