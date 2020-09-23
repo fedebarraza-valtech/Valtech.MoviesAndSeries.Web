@@ -1,6 +1,6 @@
 <template>
   <div class="StartPage">
-      <h1>Hello</h1>
+      <h1>{{model.title.value}}</h1>
   </div>
 </template>
 

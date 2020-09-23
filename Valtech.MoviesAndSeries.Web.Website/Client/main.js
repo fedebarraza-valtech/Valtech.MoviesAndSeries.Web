@@ -11,7 +11,7 @@ import DefaultPage from '@core/Pages/DefaultPage.vue';
 import StartPage from '@core/Pages/StartPage.vue';
 
 // Core
-Vue.component('StartPage', StartPage);
+Vue.component('StartPageType', StartPage);
 
 // Views
 Vue.component('DefaultPage', DefaultPage);
