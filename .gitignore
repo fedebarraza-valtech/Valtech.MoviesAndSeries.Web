@@ -360,3 +360,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Valtech.MoviesAndSeries.Web.Website/Client/package-lock.json
+/Valtech.MoviesAndSeries.Web.Website/Static/css
+/Valtech.MoviesAndSeries.Web.Website/Static/js

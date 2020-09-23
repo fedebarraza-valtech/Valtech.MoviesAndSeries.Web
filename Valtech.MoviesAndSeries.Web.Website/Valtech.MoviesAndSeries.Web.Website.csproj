@@ -232,9 +232,20 @@
     <Folder Include="Static\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Client\.eslintrc.js" />
+    <Content Include="Client\env\dev.env.js" />
+    <Content Include="Client\env\prod.env.js" />
+    <Content Include="Client\webpack.config.js" />
+    <Content Include="Client\main.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
+    <Content Include="Client\package.json" />
+    <Content Include="Client\scss\resources.scss" />
+    <Content Include="Client\scss\_colors.scss" />
+    <Content Include="Client\scss\_variables.scss" />
+    <Content Include="Client\scss\main.scss" />
+    <Content Include="Client\.eslintignore" />
     <None Include="EPiServerLog.config" />
     <Content Include="modules\_protected\Shell\web.config" />
     <Content Include="modules\_protected\Shell\Shell.zip" />
