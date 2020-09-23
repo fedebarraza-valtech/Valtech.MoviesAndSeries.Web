@@ -55,15 +55,7 @@ const config = {
                 use: [
                     MiniCSSExtractPlugin.loader,
                     { loader: 'css-loader', options: { sourceMap: true } },
-                    { loader: 'sass-loader', options: { sourceMap: true } },
-                    {
-                        loader: 'style-resources-loader', options: {
-                            patterns: [
-                                // eslint-disable-next-line no-undef
-                                path.resolve(__dirname, '../scss/resources.scss'),
-                            ],
-                        }
-                    },
+                    { loader: 'sass-loader', options: { sourceMap: true } }
                 ]
             },
         ]

@@ -241,7 +241,6 @@
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Client\package.json" />
-    <Content Include="Client\scss\resources.scss" />
     <Content Include="Client\scss\_colors.scss" />
     <Content Include="Client\scss\_variables.scss" />
     <Content Include="Client\scss\main.scss" />
