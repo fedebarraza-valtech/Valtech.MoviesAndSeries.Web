@@ -10,8 +10,9 @@ const config = {
         main: './main.js'
     },
     output: {
+        // eslint-disable-next-line no-undef
         path: path.resolve(__dirname, '../Static/'),
-        filename: "js/[name].min.js",
+        filename: 'js/[name].min.js',
     },
     plugins: [
         new webpack.ProgressPlugin(),
@@ -58,6 +59,7 @@ const config = {
                     {
                         loader: 'style-resources-loader', options: {
                             patterns: [
+                                // eslint-disable-next-line no-undef
                                 path.resolve(__dirname, '../scss/resources.scss'),
                             ],
                         }
@@ -75,7 +77,11 @@ const config = {
         extensions: ['.js', '.vue'],
         alias: {
             vue: 'vue/dist/vue.js',
-            '@core': path.join(__dirname, './Areas/Core/')
+            // eslint-disable-next-line no-undef
+            '@': path.join(__dirname, './js/'),
+            // eslint-disable-next-line no-undef
+            '@areas': path.join(__dirname, './areas/'),
+            '@core': '@areas/core/',
         }
     },
 };

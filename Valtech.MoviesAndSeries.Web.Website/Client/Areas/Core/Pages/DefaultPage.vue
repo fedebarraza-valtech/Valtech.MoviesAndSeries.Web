@@ -10,8 +10,7 @@
 
 <template>
     <div class="DefaultPage">
-        <h1>Hello</h1>
-        <!--router-view></router-view>-->
+        <router-view></router-view>
     </div>
 </template>
 
