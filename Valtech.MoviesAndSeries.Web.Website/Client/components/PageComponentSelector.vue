@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import getComponentTypeForContent from '@/api/getComponentTypeForContent';
+import getComponentTypeForContent from '@/js/api/getComponentTypeForContent';
 import { mapState } from 'vuex';
 
 export default {

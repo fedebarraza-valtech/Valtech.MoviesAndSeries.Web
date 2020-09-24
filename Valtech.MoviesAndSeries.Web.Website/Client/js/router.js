@@ -6,10 +6,10 @@
 
 import Vue from 'vue';
 import Router from 'vue-router';
-import store from '@/store';
-import { UPDATE_MODEL_BY_URL } from '@/store/modules/epiDataModel';
+import store from '@store';
+import { UPDATE_MODEL_BY_URL } from '@store/modules/epiDataModel';
 
-import PageComponentSelector from '@areas/PageComponentSelector.vue';
+import PageComponentSelector from '@components/PageComponentSelector.vue';
 
 Vue.use(Router);
 const router = new Router({

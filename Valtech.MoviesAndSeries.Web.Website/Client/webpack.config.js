@@ -70,10 +70,13 @@ const config = {
         alias: {
             vue: 'vue/dist/vue.js',
             // eslint-disable-next-line no-undef
-            '@': path.join(__dirname, './js/'),
-            // eslint-disable-next-line no-undef
-            '@areas': path.join(__dirname, './areas/'),
-            '@core': '@areas/core/',
+            '@': path.join(__dirname, './'),
+            '@api': '@/js/api/',
+            '@router': '@/js/router',
+            '@store': '@/js/store/',
+            '@plugins': '@/js/plugins/',
+            '@components': '@/components/',
+            '@core': '@components/core/',
         }
     },
 };

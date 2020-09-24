@@ -2,8 +2,8 @@ import Vue from 'vue';
 
 import './scss/main.scss';
 
-import router from '@/router';
-import store from '@/store';
+import router from '@router';
+import store from '@store';
 import { sync } from 'vuex-router-sync';
 sync(store, router);
 
