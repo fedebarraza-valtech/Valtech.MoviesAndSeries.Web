@@ -247,15 +247,17 @@
     </Compile>
     <Compile Include="Infrastructure\Initialization\ContentApiInitialization.cs" />
     <Compile Include="Infrastructure\Routing\CustomContentApiRoutingEventHandler.cs" />
+    <Compile Include="Models\Blocks\EpisodeGuideBlockType.cs" />
     <Compile Include="Models\Pages\DefaultPageType.cs" />
+    <Compile Include="Models\Pages\MoviePageType.cs" />
+    <Compile Include="Models\Pages\SeriesPageType.cs" />
     <Compile Include="Models\Pages\StartPageType.cs" />
+    <Compile Include="Models\Properties\Channel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Business\" />
-    <Folder Include="Models\Blocks\" />
     <Folder Include="Models\Media\" />
-    <Folder Include="Models\Properties\" />
     <Folder Include="Static\" />
   </ItemGroup>
   <ItemGroup>
