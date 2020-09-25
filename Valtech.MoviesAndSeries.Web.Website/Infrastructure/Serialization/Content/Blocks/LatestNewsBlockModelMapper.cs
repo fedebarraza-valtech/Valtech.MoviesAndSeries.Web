@@ -55,8 +55,7 @@ namespace Valtech.MoviesAndSeries.Web.Website.Infrastructure.Serialization.Conte
                 return properties;
             }
 
-            properties.Remove("news");
-            properties.Add("news", latestNewsBlock.News.FilteredItems?.Select(Map).ToList());
+            properties.Add("latestNews", latestNewsBlock.News.FilteredItems?.Select(Map).ToList());
 
             return properties;
         }

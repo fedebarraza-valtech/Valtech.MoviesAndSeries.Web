@@ -4,7 +4,7 @@
     <div class="d-lg-flex justify-space-between">
       <v-card
         class="mb-md-6"
-        v-for="(item, index) in model.news"
+        v-for="(item, index) in model.latestNews"
         :key="index"
         max-width="344"
       >
