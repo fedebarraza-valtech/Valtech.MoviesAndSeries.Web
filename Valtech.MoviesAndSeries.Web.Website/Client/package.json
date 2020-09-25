@@ -4,9 +4,9 @@
   "description": "",
   "scripts": {
     "lint": "eslint . --ext .js,.vue",
-    "start": "set NODE_ENV=development && webpack -w",
-    "build": "set NODE_ENV=production && webpack",
-    "build:dev": "set NODE_ENV=development && webpack"
+    "start": "webpack -w",
+    "build": "webpack",
+    "build:dev": "webpack"
   },
   "author": "",
   "license": "ISC",
