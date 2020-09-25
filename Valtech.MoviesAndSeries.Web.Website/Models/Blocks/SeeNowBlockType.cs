@@ -17,14 +17,24 @@ namespace Valtech.MoviesAndSeries.Web.Website.Models.Blocks
         public virtual ContentReference Image { get; set; }
 
         [Display(
-            Name = "Heading",
+            Name = "Movie Title",
             Order = 10)]
-        public virtual string Heading { get; set; }
+        public virtual string MovieTitle { get; set; }
+
+        [Display(
+            Name = "Brand",
+            Order = 15)]
+        public virtual string Brand { get; set; }
 
         [Display(
             Name = "Description",
-            Order = 15)]
+            Order = 20)]
         [UIHint(UIHint.Textarea)]
         public virtual string Description { get; set; }
+
+        [Display(
+            Name = "Cta Label",
+            Order = 25)]
+        public virtual string CtaLabel { get; set; }
     }
 }

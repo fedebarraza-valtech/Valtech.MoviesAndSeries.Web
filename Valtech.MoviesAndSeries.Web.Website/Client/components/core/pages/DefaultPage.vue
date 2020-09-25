@@ -29,16 +29,3 @@
     </v-footer>
   </v-app>
 </template>
-
-<style lang="scss" scoped>
-@import "scss/_colors.scss";
-
-.DefaultPage {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  position: relative;
-  top: 0;
-  left: 0;
-  background-color: $gray;
-  opacity: 1;
-}
-</style>

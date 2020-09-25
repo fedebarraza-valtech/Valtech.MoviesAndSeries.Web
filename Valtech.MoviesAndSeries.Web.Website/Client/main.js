@@ -12,6 +12,7 @@ import DefaultPage from '@core/Pages/DefaultPage.vue';
 import StartPage from '@core/Pages/StartPage.vue';
 
 import SeeNowBlock from '@core/blocks/SeeNowBlock.vue';
+import LatestNewsBlock from '@core/blocks/LatestNewsBlock.vue';
 import NotFoundBlock from '@core/blocks/NotFoundBlock.vue';
 
 // Pages
@@ -19,6 +20,7 @@ Vue.component('StartPageType', StartPage);
 
 // Blocks
 Vue.component('SeeNowBlockType', SeeNowBlock);
+Vue.component('LatestNewsBlockType', LatestNewsBlock);
 Vue.component('NotFoundBlock', NotFoundBlock);
 
 // Views
