@@ -12,7 +12,11 @@
   <v-app>
     <v-app-bar dark app>
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
-      <v-toolbar-title>Movies and Series</v-toolbar-title>
+      <router-link class="link" to="/">
+        <v-toolbar-title>
+          Movies and Series
+        </v-toolbar-title>
+      </router-link>
     </v-app-bar>
 
     <!-- Sizes your content based upon application components -->
@@ -29,3 +33,16 @@
     </v-footer>
   </v-app>
 </template>
+
+<style lang="scss" scoped>
+  @import "/scss/_colors.scss";
+
+  .link {
+    text-decoration: none;
+    color: $white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+</style>

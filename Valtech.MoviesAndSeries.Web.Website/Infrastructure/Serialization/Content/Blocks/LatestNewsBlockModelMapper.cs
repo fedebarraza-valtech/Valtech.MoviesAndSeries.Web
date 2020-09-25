@@ -72,7 +72,8 @@ namespace Valtech.MoviesAndSeries.Web.Website.Infrastructure.Serialization.Conte
             {
                 Title = cardRendering.Title,
                 ImageUrl = _urlResolver.GetUrl(cardRendering.Image),
-                Author = cardRendering.Author
+                Author = cardRendering.Author,
+                LinkUrl = _urlResolver.GetUrl(cardRendering.ContentLink)
             };
         }
     }

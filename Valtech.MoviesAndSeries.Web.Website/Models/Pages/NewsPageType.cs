@@ -2,6 +2,7 @@
 using EPiServer.Core;
 using EPiServer.DataAnnotations;
 using EPiServer.Web;
+using Valtech.MoviesAndSeries.Web.Website.Models.Blocks;
 using Valtech.MoviesAndSeries.Web.Website.Models.Pages.Interfaces;
 
 namespace Valtech.MoviesAndSeries.Web.Website.Models.Pages
@@ -26,5 +27,16 @@ namespace Valtech.MoviesAndSeries.Web.Website.Models.Pages
             Name = "Author",
             Order = 20)]
         public virtual string Author { get; set; }
+
+        [Display(
+            Name = "Body",
+            Order = 25)]
+        public virtual XhtmlString Body { get; set; }
+
+        [Display(
+            Name = "Content Body",
+            Order = 30)]
+        [AllowedTypes(typeof(LatestNewsBlockType))]
+        public virtual ContentArea ContentBody { get; set; }
     }
 }

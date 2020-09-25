@@ -15,7 +15,9 @@
         <v-card-subtitle>{{ item.author }}</v-card-subtitle>
 
         <v-card-actions>
-          <v-btn text>Read More</v-btn>
+          <router-link class="link" :to="item.linkUrl">
+            <v-btn text>Read More</v-btn>
+          </router-link>
         </v-card-actions>
       </v-card>
     </div>
@@ -27,3 +29,11 @@ export default {
     props: ['model'],
 };
 </script>
+
+<style lang="scss" scoped>
+  @import "/scss/_colors.scss";
+
+  .link {
+    text-decoration: none;
+  }
+</style>
