@@ -247,11 +247,15 @@
     </Compile>
     <Compile Include="Infrastructure\Initialization\ContentApiInitialization.cs" />
     <Compile Include="Infrastructure\Routing\CustomContentApiRoutingEventHandler.cs" />
+    <Compile Include="Infrastructure\Serialization\Content\Blocks\DTO\NewsCardDto.cs" />
+    <Compile Include="Infrastructure\Serialization\Content\Blocks\LatestNewsBlockContentConverterProvider.cs" />
+    <Compile Include="Infrastructure\Serialization\Content\Blocks\LatestNewsBlockModelMapper.cs" />
     <Compile Include="Models\Blocks\EpisodeGuideBlockType.cs" />
     <Compile Include="Models\Blocks\LatestNewsBlockType.cs" />
     <Compile Include="Models\Blocks\SeeNowBlockType.cs" />
     <Compile Include="Models\Media\Image.cs" />
     <Compile Include="Models\Pages\DefaultPageType.cs" />
+    <Compile Include="Models\Pages\Interfaces\IHasCardRendering.cs" />
     <Compile Include="Models\Pages\MoviePageType.cs" />
     <Compile Include="Models\Pages\MoviesListingPageType.cs" />
     <Compile Include="Models\Pages\NewsListingPageType.cs" />

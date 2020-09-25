@@ -8,9 +8,9 @@
 
 <template>
     <section class="ContentArea">
-        <div :key="index" v-for="(block, index) in model">
+        <v-row :key="index" v-for="(block, index) in model">
             <BlockComponentSelector :model="block"></BlockComponentSelector>
-        </div>
+        </v-row>
     </section>
 </template>
 

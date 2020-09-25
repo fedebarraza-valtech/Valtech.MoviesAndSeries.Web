@@ -1,23 +1,25 @@
 <template>
-  <v-card dark>
-    <div class="d-flex flex-no-wrap justify-space-between">
-      <div>
-        <v-card-title class="headline">{{ model.movieTitle.value }}</v-card-title>
+  <div class="col">
+    <v-card-title class="headline">{{ model.heading.value }}</v-card-title>
+    <div class="d-lg-flex justify-space-between">
+      <v-card
+        class="mb-md-6"
+        v-for="(item, index) in model.news"
+        :key="index"
+        max-width="344"
+      >
+        <v-img :src="item.imageUrl" height="200px"></v-img>
 
-        <v-card-subtitle>{{ model.brand.value }}</v-card-subtitle>
+        <v-card-title>{{ item.title }}</v-card-title>
 
-        <v-card-text>{{ model.description.value }}</v-card-text>
-      </div>
+        <v-card-subtitle>{{ item.author }}</v-card-subtitle>
 
-      <v-avatar class="ma-5" width="auto" height="auto" tile>
-        <v-img :src="model.image.value.url"></v-img>
-      </v-avatar>
+        <v-card-actions>
+          <v-btn text>Read More</v-btn>
+        </v-card-actions>
+      </v-card>
     </div>
-
-    <v-card-actions>
-      <v-btn text>{{model.ctaLabel.value}}</v-btn>
-    </v-card-actions>
-  </v-card>
+  </div>
 </template>
 
 <script>

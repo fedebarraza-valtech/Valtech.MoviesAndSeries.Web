@@ -36,7 +36,7 @@ export default {
 
 <style lang="scss" scoped>
     .default-layout {
-        max-width: 900px;
+        max-width: 1200px;
         margin: 0 auto;
     }
 </style>
