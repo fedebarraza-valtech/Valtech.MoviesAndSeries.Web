@@ -1,8 +1,6 @@
 import Vue from 'vue';
 import vuetify from '@plugins/vuetify'; // path to vuetify export
 
-import './scss/main.scss';
-
 import router from '@router';
 import store from '@store';
 import { sync } from 'vuex-router-sync';
