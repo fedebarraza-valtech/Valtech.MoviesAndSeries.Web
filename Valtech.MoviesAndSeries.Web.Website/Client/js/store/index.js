@@ -13,13 +13,13 @@ import epiDataModel from '@store/modules/epiDataModel';
 import epiContext from '@store/modules/epiContext';
 
 // the module handling app specific state
-import appContext from '@store/modules/appContext';
+//import appContext from '@store/modules/appContext';
 
 Vue.use(Vuex);
 
 const store = new Vuex.Store({
     modules: {
-        appContext,
+        //appContext,
         epiDataModel,
         epiContext
     }
