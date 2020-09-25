@@ -271,8 +271,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Client\.eslintrc.js" />
-    <Content Include="Client\env\dev.env.js" />
-    <Content Include="Client\env\prod.env.js" />
     <Content Include="Client\js\api\api.js" />
     <Content Include="Client\js\api\getComponentTypeForContent.js" />
     <Content Include="Client\js\plugins\vuetify.js" />
