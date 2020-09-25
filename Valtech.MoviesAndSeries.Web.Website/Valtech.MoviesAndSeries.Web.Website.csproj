@@ -248,8 +248,14 @@
     <Compile Include="Infrastructure\Initialization\ContentApiInitialization.cs" />
     <Compile Include="Infrastructure\Routing\CustomContentApiRoutingEventHandler.cs" />
     <Compile Include="Models\Blocks\EpisodeGuideBlockType.cs" />
+    <Compile Include="Models\Blocks\LatestNewsBlockType.cs" />
+    <Compile Include="Models\Blocks\SeeNowBlockType.cs" />
+    <Compile Include="Models\Media\Image.cs" />
     <Compile Include="Models\Pages\DefaultPageType.cs" />
     <Compile Include="Models\Pages\MoviePageType.cs" />
+    <Compile Include="Models\Pages\MoviesListingPageType.cs" />
+    <Compile Include="Models\Pages\NewsListingPageType.cs" />
+    <Compile Include="Models\Pages\NewsPageType.cs" />
     <Compile Include="Models\Pages\SeriesPageType.cs" />
     <Compile Include="Models\Pages\StartPageType.cs" />
     <Compile Include="Models\Properties\Channel.cs" />
@@ -257,7 +263,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Business\" />
-    <Folder Include="Models\Media\" />
     <Folder Include="Static\" />
   </ItemGroup>
   <ItemGroup>

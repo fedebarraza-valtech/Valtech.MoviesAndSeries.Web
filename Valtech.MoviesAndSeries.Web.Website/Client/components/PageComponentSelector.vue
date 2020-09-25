@@ -11,7 +11,7 @@
 -->
 
 <template>
-    <div v-if="modelLoaded">
+    <div class="default-layout" v-if="modelLoaded">
         <component :is="getComponentTypeForPage(model)" :model="model"></component>
     </div>
 </template>
@@ -33,3 +33,10 @@ export default {
     }
 };
 </script>
+
+<style lang="scss" scoped>
+    .default-layout {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+</style>

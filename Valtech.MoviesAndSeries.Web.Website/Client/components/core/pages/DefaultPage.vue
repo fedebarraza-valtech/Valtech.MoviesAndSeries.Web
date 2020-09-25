@@ -9,20 +9,36 @@
 -->
 
 <template>
-    <div class="DefaultPage">
+  <v-app>
+    <v-app-bar dark app>
+      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+      <v-toolbar-title>Movies and Series</v-toolbar-title>
+    </v-app-bar>
+
+    <!-- Sizes your content based upon application components -->
+    <v-main>
+      <!-- Provides the application the proper gutter -->
+      <v-container fluid>
+        <!-- If using vue-router -->
         <router-view></router-view>
-    </div>
+      </v-container>
+    </v-main>
+
+    <v-footer app>
+      <!-- -->
+    </v-footer>
+  </v-app>
 </template>
 
 <style lang="scss" scoped>
-    @import 'scss/_colors.scss';
+@import "scss/_colors.scss";
 
-    .DefaultPage {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        position: relative;
-        top: 0;
-        left: 0;
-        background-color: $gray;
-        opacity: 1;
-    }
+.DefaultPage {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: $gray;
+  opacity: 1;
+}
 </style>
